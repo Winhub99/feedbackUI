@@ -1,0 +1,102 @@
+body,#root{
+    height: 100vh;
+    background:#0e0e0e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ratingCard{
+    padding: 40px;
+   
+    align-items: center;
+    /* height: 100vh; */
+    background:#1f2630;
+    border-radius: 30px;
+    width: 400px;
+    height: 410px;
+    text-align: left;
+}
+
+.para{
+    font-size: 24px;
+    color:#5b626c;
+    margin-top: 15px;
+
+}
+
+.heading{
+    color: #fdffff;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.star{
+    border-radius: 100%;
+    background: #262f38;
+    padding: 10px;
+}
+
+.btnGroup{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.page{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: #262f38;
+    color: #767f89;
+    cursor: pointer;
+    font-size: 24px;
+}
+.page:hover{
+    background-color: #7c8896;
+    color: #fafeff;
+}
+.page:focus{
+    background: #fb7617;
+    color: #fafeff;
+
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+color: #fafeff;
+
+background: #fb7617;
+}
+
+.submit-btn:focus{
+    background: #fafeff;
+    color: #fb7617;
+}
+
+.thank-you-component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.selected{
+    color: #fb7617;
+    background:#2c2d2e;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
